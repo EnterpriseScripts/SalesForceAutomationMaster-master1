@@ -1,0 +1,1 @@
+2023-05-25 13-05-34	[ PASS ]:: 1 ::To verify Sales rep is able to do acquisition with 500 connections of Big Business product and validate the basket in Pre Prod	[ Duration: 849027 ] ::BigBusinessPreProdAcquisition500_0
