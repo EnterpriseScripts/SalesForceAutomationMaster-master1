@@ -1,0 +1,59 @@
+INFO  2023-05-25 13:05:23,810 [main] SpringBootStep:logStarting(50): Starting SpringBootStep on LASST303651 with PID 16144 (C:\Users\bishnov\Automation\Original\SalesForceAutomationMaster-master\SalesForceAutomationMaster-master\target\test-classes started by bishnov in C:\Users\bishnov\Automation\Original\SalesForceAutomationMaster-master\SalesForceAutomationMaster-master)
+DEBUG 2023-05-25 13:05:23,841 [main] SpringBootStep:logStarting(53): Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+INFO  2023-05-25 13:05:23,846 [main] SpringBootStep:logStartupProfileInfo(652): No active profile set, falling back to default profiles: default
+INFO  2023-05-25 13:05:26,347 [main] SystemDetails:<init>(50): detected OS: [Windows 10 , 10.0]
+INFO  2023-05-25 13:05:26,358 [main] Configuration:read(46): loading configuration: /C:/Users/bishnov/Automation/Original/SalesForceAutomationMaster-master/SalesForceAutomationMaster-master/target/test-classes/config.properties
+INFO  2023-05-25 13:05:26,365 [main] Configuration:<init>(34): PageFactory is configured for deviceType [null]
+INFO  2023-05-25 13:05:34,409 [main] SpringBootStep:logStarted(59): Started SpringBootStep in 11.136 seconds (JVM running for 18.189)
+DEBUG 2023-05-25 13:05:34,505 [main] SpringBootStep:beforeScenario(50): *****[BigBusinessPreProdAcquisition500_0][Scenario #1: To verify Sales rep is able to do acquisition with 500 connections of Big Business product and validate the basket in Pre Prod ] *****
+DEBUG 2023-05-25 13:05:41,044 [main] PageObject:login(87): using login details form configuration file...
+DEBUG 2023-05-25 13:05:41,045 [main] PageObject:login(93): BishnoiBoy@09
+DEBUG 2023-05-25 13:05:41,045 [main] PageObject:login(94): login to saleforce ....
+DEBUG 2023-05-25 13:05:41,794 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:06:27,331 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:06:29,870 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:06:38,464 [main] PageObject:clickElement(67): clicking on Sales Representative CPQ .E2E- Private User
+DEBUG 2023-05-25 13:06:48,958 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:06:51,227 [main] PageObject:clickElement(67): clicking on User Detail
+DEBUG 2023-05-25 13:06:58,451 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:07:04,157 [main] PageObject:profileLogin(139): Logged in as Sales Rep
+DEBUG 2023-05-25 13:07:04,295 [main] PageObject:clickElement(67): clicking on Opportunities
+DEBUG 2023-05-25 13:07:09,190 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:07:12,492 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:07:18,579 [main] PageObject:clickElement(67): clicking on Opportunity Owner
+DEBUG 2023-05-25 13:07:25,001 [main] PageObject:clickElement(67): clicking on Opportunity Owner
+DEBUG 2023-05-25 13:07:33,819 [main] PageObject:clickElement(67): clicking on [ 25/05/2023 ]
+DEBUG 2023-05-25 13:07:38,586 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:07:50,856 [main] PageObject:opportunityCreationOne(140): Opportunity is created
+DEBUG 2023-05-25 13:07:56,264 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:08:18,042 [main] PageObject:clickElement(67): clicking on [ 25/05/2023 ]
+DEBUG 2023-05-25 13:08:22,456 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:08:32,944 [main] PageObject:productdetailsMobile(148): O2 Product is added
+DEBUG 2023-05-25 13:08:42,626 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:09:50,954 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:09:55,095 [main] PageObject:addproduct(58): Basket is ready to add products
+DEBUG 2023-05-25 13:09:58,535 [main] PageObject:clickElement(67): clicking on Big Business & Public Sector
+DEBUG 2023-05-25 13:10:01,874 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:10:18,791 [main] PageObject:BBConfig(126): Big Business or NS2 product is present in Basket
+DEBUG 2023-05-25 13:10:18,811 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:12:42,512 [main] PageObject:clickElement(67): clicking on Finish
+DEBUG 2023-05-25 13:13:19,636 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:13:35,848 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:13:37,985 [main] PageObject:RunCompatiblity(595): Mobile Flex Compatible
+DEBUG 2023-05-25 13:13:37,986 [main] PageObject:RunCompatiblity(596): mobile Flex has been checked for Compatibility
+DEBUG 2023-05-25 13:14:01,760 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:14:14,006 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:14:31,450 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:14:57,638 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:15:01,860 [main] PageObject:clickElement(67): clicking on Clauses
+DEBUG 2023-05-25 13:16:10,111 [main] PageObject:clickElement(67): clicking on Discount
+DEBUG 2023-05-25 13:16:27,973 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:16:48,185 [main] PageObject:clickElement(67): clicking on Profit and Loss
+DEBUG 2023-05-25 13:17:03,616 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:17:12,608 [main] PageObject:clickElement(67): clicking on Select...
+DEBUG 2023-05-25 13:17:24,332 [main] PageObject:clickElement(67): clicking on Save
+DEBUG 2023-05-25 13:17:47,990 [main] PageObject:clickElement(67): clicking on Refresh DOA
+DEBUG 2023-05-25 13:18:05,267 [main] PageObject:clickElement(67): clicking on Submit For Approval
+DEBUG 2023-05-25 13:19:19,001 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:19:35,467 [main] PageObject:clickElement(67): clicking on 
+DEBUG 2023-05-25 13:19:43,542 [main] SpringBootStep:afterScenario(68): *****[PASS][Scenario #1: To verify Sales rep is able to do acquisition with 500 connections of Big Business product and validate the basket in Pre Prod ] *****
